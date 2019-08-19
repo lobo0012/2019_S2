@@ -9,10 +9,10 @@ subquestion: |
   
   Information|Your Input
   -----------|----------
-  Your name|           ${ MJFsalutation } ${ MJFfirstname } ${ MJFlastname }
-  Your age|            ${ MJFage }
-  Are you employed?|   ${ MJFisemployed }
-  Your annual income|  ${ currency(MJFannualincome) }
+  Your name             | ${ MJFsalutation } ${ MJFfirstname } ${ MJFlastname }
+  Your age              | ${ MJFage }
+  Are you employed?     | ${ MJFisemployed }
+  Your annual income    | ${ currency(MJFannualincome) }
   Your favourite hobbies| ${ MJFhobbies.true_values() }
 buttons:
   - I'm done: exit
